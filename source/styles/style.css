@@ -32,13 +32,11 @@ div {
   margin-bottom: 10px;
   border: 1px dotted #3b76da;
   border-radius: 5px;
-  vertical-align: baseline;
   position: relative; }
   .button .ico {
     height: 22px;
     width: 21px;
     background: url("../images/sprite.png");
-    background-repeat: no-repeat;
     position: absolute;
     top: 5.5px;
     left: 7px; }
