@@ -29,24 +29,26 @@ div{
 		height: auto;
 		padding: 28px 0px 28px 0px;
 		line-height: 40px;
+
 	}
 
 	.button{
 		color: #3b76da;
-		padding: 9px 9px 9px 35px;
+		padding: 0px 9px 0px 35px;
 		margin-right: 23px;
 		margin-bottom: 10px;
 		border: 1px dotted #3b76da;
 		border-radius: 5px;
 		position: relative;
+		display: inline-block;
 
 		.ico{
 			height: 22px;
 			width: 21px;
 		    background: url('../images/sprite.png');
 		    position: absolute;
-		    top: 5.5px;
-		  	left: 7px;
+		    top: 8px;
+		  	left: 8px;
 		}
 
 		.region_img{ background-position: -23px 0; }

@@ -27,19 +27,20 @@ div {
 
 .button {
   color: #3b76da;
-  padding: 9px 9px 9px 35px;
+  padding: 0px 9px 0px 35px;
   margin-right: 23px;
   margin-bottom: 10px;
   border: 1px dotted #3b76da;
   border-radius: 5px;
-  position: relative; }
+  position: relative;
+  display: inline-block; }
   .button .ico {
     height: 22px;
     width: 21px;
     background: url("../images/sprite.png");
     position: absolute;
-    top: 5.5px;
-    left: 7px; }
+    top: 8px;
+    left: 8px; }
   .button .region_img {
     background-position: -23px 0; }
   .button .status_img {
