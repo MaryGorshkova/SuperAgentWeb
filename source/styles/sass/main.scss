@@ -4,17 +4,63 @@
 }
 
 body{
-	font: 100%/1.5em Arial, Helvetica, sans-serif;
+	font: 85%/1.2em Arial, Helvetica, sans-serif;
 	color: #000;
+	width:100%;
+	background: #fff;
 }
 
 hr{
-	
+	border-top: #bfbcb3 dashed 1px;
+	border-bottom: none;
 }
 
 div{
 	width: 100%;
-	padding: 0 29px 0 29px;
+	padding: 0 29px;
+	background: #fff7dc;
+}
+
+.main_area{
+	height: 105px;
+	background: #fff7dc;
+
+	
+}
+
+.button_container{
+		padding: 28px 0px 30px 0px;
+		line-height: 40px;
+	}
+
+	.button{
+		color: #3b76da;
+		padding: 9px 9px 9px 35px;
+		margin-right: 50px;
+		margin-bottom: 10px;
+		border: 1px dotted #3b76da;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+
+		.ico{
+			height: 22px;
+			width: 21px;
+		    background: url('../images/sprite.png');
+		    background-repeat: no-repeat;
+		    position: absolute;
+		    top: 5.5px;
+		  	left: 7px;
+		}
+
+		.region_img{ background-position: -23px 0; }
+	  	.status_img{ background-position: -45px 0; }
+	  	.type_img{ background-position: -70px 0; }
+	  	.param_img{ background-position: -91px 0; }
+}
+
+#options{
+	border-top: #bfbcb3 dashed 1px;
 }
 
 #header{
@@ -24,10 +70,6 @@ div{
 
 #footer{
 	height: 105px;
-}
-
-#legend{
-	height: 105px;
-	background: #fff7dc;
+	background: #fff;
 }
 
