@@ -8,26 +8,28 @@
 	float: left;
 	margin: 0;
 	padding: 0;
-	border: #000 solid 1px;
 }
 
-	.header{
-		width: 19%;
-	}
-
-	.select{
-		width: 63%;
-	}
-
-	.notation{
-		
-	}
-
-h4{
-	
-	font-weight: normal;
+.header{
+	width: 19%;
 }
 
+.delete_btn{
+	width: 17%;
+}
+
+.select{
+	width: 46%;
+}
+
+.list_container{
+	max-height: 300px;
+	background:#fff;
+	list-style-position: inside;
+	padding: 10px;
+	border: 2px solid #cccccb;
+	overflow: auto;
+}
 
 .region_sel{
 	background: #fff;
@@ -36,4 +38,41 @@ h4{
 	position:absolute;
 	top: 8px;
 	left: 8px;
+}
+
+ul{
+	line-height: 1.75;
+	list-style: none;
+
+	span img{
+		height: 15px;
+		width: 15px;
+		background: url('../images/list_sprite.png') no-repeat;
+		margin-right: 5px;
+	}
+
+}
+
+.show_childs{ background-position: -28px 0; };
+.hide_childs{ background-position: -43px 0; };
+.selectable{ background-position: -13px 0; };
+.selected{ background-position: 2px 0; };
+
+.underlined{
+	border-bottom: 1px dotted #000;
+}
+
+.lvl1{
+	margin-left: 14px;
+}
+
+.lvl2{
+	margin-left: 30px;}
+
+.lvl3{
+	margin-left: 30px;
+}
+
+.lvl4{
+	margin-left: 30px;
 }

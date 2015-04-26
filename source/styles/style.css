@@ -62,9 +62,11 @@ div {
   color: #a4a299;
   font-size: 0.9em; }
 
-.legend {
-  color: #a4a299;
+h4 {
   font-weight: normal; }
+
+.legend {
+  color: #a4a299; }
 
 #options {
   border-top: #bfbcb3 dashed 1px;
