@@ -32,6 +32,7 @@ div {
   margin-bottom: 10px;
   border: 1px dotted #3b76da;
   border-radius: 5px;
+  -moz-border-radius: 5px;
   position: relative;
   display: inline-block; }
   .button .ico {
