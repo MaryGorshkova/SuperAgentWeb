@@ -14,15 +14,14 @@ hr {
 
 div {
   width: 100%;
-  padding: 0 29px;
   background: #fff7dc; }
 
 .main_area {
-  background: #fff7dc; }
+  background: #fff7dc;
+  padding: 0 29px; }
 
 .button_container {
   height: auto;
-  padding: 28px 0px 28px 0px;
   line-height: 40px; }
 
 .button {
@@ -39,6 +38,7 @@ div {
     height: 22px;
     width: 21px;
     background: url("../images/sprite.png");
+    background-repeat: no-repeat;
     position: absolute;
     top: 8px;
     left: 8px; }
@@ -51,15 +51,25 @@ div {
   .button .param_img {
     background-position: -91px 0; }
 
+.notation {
+  width: 182px;
+  float: right;
+  color: #a4a299;
+  font-size: 0.9em; }
+
 #options {
-  border-top: #bfbcb3 dashed 1px; }
+  border-top: #bfbcb3 dashed 1px;
+  padding-top: 28px;
+  padding-bottom: 28px; }
 
 #header {
   height: 52px;
-  background: #656565; }
+  background: #656565;
+  padding: 0 29px; }
 
 #footer {
   height: 105px;
-  background: #fff; }
+  background: #fff;
+  padding: 0 29px; }
 
 /*# sourceMappingURL=style.css.map */
