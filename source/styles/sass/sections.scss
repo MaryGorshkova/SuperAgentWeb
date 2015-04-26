@@ -1,0 +1,39 @@
+.section{
+	margin-top: 26px;
+	width: 100%;
+	display: inline-block;
+}
+
+.cols{
+	float: left;
+	margin: 0;
+	padding: 0;
+	border: #000 solid 1px;
+}
+
+	.header{
+		width: 19%;
+	}
+
+	.select{
+		width: 63%;
+	}
+
+	.notation{
+		
+	}
+
+h4{
+	
+	font-weight: normal;
+}
+
+
+.region_sel{
+	background: #fff;
+	border: 2px solid #e9e4d0;
+	clear: both;
+	position:absolute;
+	top: 8px;
+	left: 8px;
+}

@@ -4,7 +4,7 @@
 }
 
 body{
-	font: 85%/1.2em Arial, Helvetica, sans-serif;
+	font: 85%/1.2em Helvetica, Arial, sans-serif;
 	color: #000;
 	width:100%;
 	background: #fff;
@@ -25,6 +25,12 @@ div{
 	padding: 0 29px;
 }
 
+#settings{
+	padding-top: 19px;
+	padding-bottom: 32px;
+}
+
+
 .button_container{
 		height: auto;
 		line-height: 40px;
@@ -41,6 +47,7 @@ div{
 		-moz-border-radius: 5px;
 		position: relative;
 		display: inline-block;
+		cursor: pointer;
 
 		.ico{
 			height: 22px;
@@ -59,16 +66,22 @@ div{
 }
 
 .notation{
-	width: 182px;
+	width: 18%;
 	float: right;
 	color: #a4a299;
 	font-size: 0.9em;
+}
+
+.legend{
+	color: #a4a299;
+	font-weight: normal;
 }
 
 #options{
 	border-top: #bfbcb3 dashed 1px;
 	padding-top: 28px;
 	padding-bottom: 28px;
+	clear: right;
 }
 
 #header{
