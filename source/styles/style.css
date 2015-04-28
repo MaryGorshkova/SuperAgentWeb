@@ -60,7 +60,8 @@ div {
   width: 18%;
   float: right;
   color: #a4a299;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  padding-bottom: 1px; }
 
 h4 {
   font-weight: normal; }

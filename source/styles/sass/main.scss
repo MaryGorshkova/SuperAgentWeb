@@ -49,10 +49,6 @@ div{
 		display: inline-block;
 		cursor: pointer;
 
-		p{
-			line-height: 10px;
-		}
-
 		.ico{
 			height: 22px;
 			width: 21px;
@@ -74,6 +70,7 @@ div{
 	float: right;
 	color: #a4a299;
 	font-size: 0.9em;
+	padding-bottom: 1px;
 }
 
 h4{
