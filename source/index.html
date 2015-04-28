@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
-	<script type="text/javascript" src="script/script.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/boxstyle.css">
 	<link rel="stylesheet" type="text/css" href="styles/sections.css">
@@ -18,7 +18,7 @@
 		
 		<div id="regionSection" class="section">	
 			<div class="notation">Выберите один или несколько регионов и/или территорий, где будет доступна анкета</div>	
-			<div class="delete_btn"><img src="images/empty.png"></div>
+			<div class="delete_btn" id="hideRegion"><img src="images/empty.png"></div>
 			<div class="cols header">Регион:</div>
 			<div class="cols select">
 				<div class="list_container">
@@ -53,7 +53,7 @@
 
 		<div id="statusSection" class="section">
 			<div class="notation"></div>
-			<div class="delete_btn"><img src="images/empty.png"></div>
+			<div class="delete_btn" id="hideStatus"><img src="images/empty.png"></div>
 			<div class="cols header">Статус:</div>
 			<div class="cols select">
 				<select>

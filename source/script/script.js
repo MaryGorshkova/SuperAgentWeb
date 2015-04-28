@@ -1,33 +1,45 @@
-window.onload = function() {
-	// $(document).ready(function() {
-//   		alert ('jQuery подключен и отлично работает!');
-	// });
-	SetHandlers();
+
+$(document).ready(init);
+
+function init(){
 	$('#regionSection').hide();
 	$('#statusSection').hide();
+
+	var region_btn = $('#region');
+	region_btn.bind('click', function(){OpenSection('#region', '#regionSection')});
+	region_btn.bind('mouseover', function(){ HighlightButton('#region') });
+	region_btn.bind('mouseleave', function(){ ResetBackground('#region') });
+
+	var status_btn = $('#status');
+	status_btn.bind('click', function(){OpenSection('#status', '#statusSection')});
+	status_btn.bind('mouseover', function(){ HighlightButton('#status') });
+	status_btn.bind('mouseleave', function(){ ResetBackground('#status') });
+
+	var hideStatus_btn = $('#hideStatus');
+	hideStatus_btn.bind('click', function(){HideSection('#statusSection', '#status')})
+
+	var hideRegion_btn = $('#hideRegion');
+	hideRegion_btn.bind('click', function(){HideSection('#regionSection', '#region')})
 }
 
-function SetHandlers(){
-	$('#region').mouseover(HighlightButton('#region'));
-	$('#region').mouseleave(ResetBackground('#region'));
-	$('#region').click(function(){$('#regionSection').slideDown() });//('#region', '#regionSection'));
-
-	$('#status').mouseover(HighlightButton('#status'));
-	$('#status').mouseleave(ResetBackground('#status'));
-	$('#status').click(function(){$('#statusSection').slideDown() });	
-}
 
 function HighlightButton(button){
-	$(button).mouseover(function(){
-	  $(button).css('background-color', '#fff');
-	});	
+	$(button).css('background-color', '#fff');
 }
+
+
 
 function ResetBackground(button){
-	$(button).mouseleave(function(){
-	  $(button).css('background-color', '#fff7dc');
-	});
+	$(button).css('background-color', '#fff7dc');
 }
 
+function OpenSection (sourse, target){
+	$(target).show();
+	$(sourse).hide();
+}
 
-		
+function HideSection(sourse, show_btn){
+	$(sourse).hide();
+	$(show_btn).show();
+}
+
