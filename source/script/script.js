@@ -34,12 +34,12 @@ function ResetBackground(button){
 }
 
 function OpenSection (sourse, target){
-	$(target).show();
+	$(target).slideDown();
 	$(sourse).hide();
 }
 
 function HideSection(sourse, show_btn){
-	$(sourse).hide();
+	$(sourse).slideUp();
 	$(show_btn).show();
 }
 
