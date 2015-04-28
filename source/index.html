@@ -2,11 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 	<script type="text/javascript" src="script/script.js"></script>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link rel="stylesheet" type="text/css" href="styles/boxstyle.css">
 	<link rel="stylesheet" type="text/css" href="styles/sections.css">
+	<link rel="stylesheet" type="text/css" href="styles/mediaqueries.css"/>
 	<title>ЦУП</title>
 </head>
 <body>
@@ -14,7 +16,9 @@
 	<div id="settings" class="main_area">	
 		<h4 class="legend">Таргетирование анкеты по торговым точкам</h4>
 		
-		<div id="regionSection" class="section">		
+		<div id="regionSection" class="section">	
+			<div class="notation">Выберите один или несколько регионов и/или территорий, где будет доступна анкета</div>	
+			<div class="delete_btn"><img src="images/empty.png"></div>
 			<div class="cols header">Регион:</div>
 			<div class="cols select">
 				<div class="list_container">
@@ -45,11 +49,11 @@
 					</ul>
 				</div>
 			</div>
-			<div class="cols delete_btn"><img src="images/empty.png"></div>
-			<div class="cols notation">Выберите один или несколько регионов и/или территорий, где будет доступна анкета</div>
 		</div>
 
 		<div id="statusSection" class="section">
+			<div class="cols notation"></div>
+			<div class="cols delete_btn"><img src="images/empty.png"></div>
 			<div class="cols header">Статус:</div>
 			<div class="cols select">
 				<select>
@@ -57,8 +61,6 @@
 				  <option>Закрыта</option>
 				</select>
 			</div>
-			<div class="cols delete_btn"><img src="images/empty.png"></div>
-			<div class="cols notation"></div>
 		</div>
 
 	</div>
@@ -67,7 +69,7 @@
 		<div class="button_container">
 			<span class="button" id="region">
 				<img class="ico region_img" src="images/empty.png"/>
-				Регион и территория
+				<p>Регион и территория</p>
 			</span>
 			<span class="button" id="status">
 				<img class="ico status_img" src="images/empty.png"/>
